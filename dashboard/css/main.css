@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: normal;
+  color: #2e323c;
+  background: #f5f6fa;
+}
+
+/*************** Card ***************/
+.card {
+  border: 1px solid #e4e7f2;
+  -webkit-border-radius: 0.15rem;
+  -moz-border-radius: 0.15rem;
+  border-radius: 0.15rem;
+  margin-top: 1rem;
+  box-shadow: none;
+}
+.card.top-blue-bdr {
+  border-top: 2px solid #007ae1;
+}
+.card.top-grey-bdr {
+  border-top: 2px solid #333333;
+}
+.card.top-red-bdr {
+  border-top: 2px solid #ff4c4c;
+}
+.card .card-body {
+  padding: 1rem;
+  position: relative;
+}
+.card .card-header {
+  background: #ffffff;
+  border-bottom: 1px solid #ebedf5;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .card-footer {
+  background: #ffffff;
+  border-top: 1px solid #e1e5f1;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  position: relative;
+}
+.card .card-footer h5 {
+  font-size: 1rem;
+}
+.card .card-footer h5 a {
+  color: #007ae1;
+}
+.card h6.card-title {
+  text-align: center;
+  margin: 1rem;
+}
+.card.bg-primary {
+  border: 1px solid #007ae1;
+}
+.card.bg-primary .card-header {
+  background: #007ae1;
+  border-bottom: 1px solid #006cc8;
+}
+.card.bg-secondary {
+  border: 1px solid #ff3e61;
+}
+.card.bg-secondary .card-header {
+  background: #ff3e61;
+  border-bottom: 1px solid #ff1540;
+}
+.card.bg-dark {
+  border: 1px solid #3c3c3c;
+}
+.card.bg-dark .card-header {
+  background: #3c3c3c;
+  border-bottom: 1px solid #282828;
+}
+.card.bg-light {
+  border: 1px solid #f0f8ff;
+}
+.card.bg-light .card-header {
+  background: #f0f8ff;
+  border-bottom: 1px solid #d7ecff;
+}
+.card.bg-success {
+  border: 1px solid #32ba7c;
+}
+.card.bg-success .card-header {
+  background: #32ba7c;
+  border-bottom: 1px solid #2da66f;
+}
+.card.bg-info {
+  border: 1px solid #007ae1;
+}
+.card.bg-info .card-header {
+  background: #007ae1;
+  border-bottom: 1px solid #006cc8;
+}
+.card.bg-warning {
+  border: 1px solid #ffc012;
+}
+.card.bg-warning .card-header {
+  background: #ffc012;
+  border-bottom: 1px solid #e8aa00;
+}
+.card.bg-danger {
+  border: 1px solid #ff4c4c;
+}
+.card.bg-danger .card-header {
+  background: #ff4c4c;
+  border-bottom: 1px solid #ff3333;
+}
+.card.bg-grey {
+  background: #333333;
+  border: 1px solid #333333;
+}
+.card.bg-grey .card-header {
+  background: #333333;
+  border-bottom: 1px solid #1f1f1f;
+}
+.card.bg-brown {
+  background: #ab7967;
+  border: 1px solid #ab7967;
+}
+.card.bg-brown .card-header {
+  background: #ab7967;
+  border-bottom: 1px solid #966553;
+}
+.card.bg-facebook {
+  background: #3B5998;
+  border: 1px solid #3B5998;
+}
+.card.bg-facebook .card-header {
+  background: #3B5998;
+  border-bottom: 1px solid #30487b;
+}
+
+.card-message {
+  background-color: #ffffff;
+  padding: 12px 20px;
+  border-bottom: 1px solid #e1e5f1;
+}
+.card-message i {
+  font-size: 2rem;
+  margin-right: 10px;
+  float: left;
+}
+
+/*************** Card Header Tabs ***************/
+.card-header-tabs {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/*************** Tables ***************/
+.table-hover tbody tr:hover {
+  background-color: #f5f6fa;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.thead-default th {
+  background: #f5f6fa;
+}
+
+.table-inverse {
+  background: #007ae1;
+  color: #ffffff;
+}
+
+.table-inverse td,
+.table-inverse th,
+.table-inverse thead th {
+  border-color: #006cc8;
+}
+
+.thead-inverse th {
+  background-color: #007ae1;
+  color: #ffffff;
+}
+
+.table thead th {
+  border-bottom: 1px solid #e1e5f1;
+}
+
+.table-success,
+.table-success > td,
+.table-success > th {
+  background-color: #d8f1ef;
+}
+
+.table-danger,
+.table-danger > td,
+.table-danger > th {
+  background-color: #fde8e8;
+}
+
+.table-warning,
+.table-warning > td,
+.table-warning > th {
+  background-color: #fdebd1;
+}
+
+.table-info,
+.table-info > td,
+.table-info > th {
+  background-color: #e0f0fd;
+}
+
+.table-light,
+.table-light > td,
+.table-light > th {
+  background-color: #f5f6fa;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f5f6fa;
+}
+
+/*************** Gutters ***************/
+.gutters {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.gutters > .col,
+.gutters > [class*=col-] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.no-gutters {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*=col-] {
+  padding-right: 0px;
+  padding-left: 0px;
+}
